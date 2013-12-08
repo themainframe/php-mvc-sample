@@ -1,8 +1,15 @@
 <?php
+/**
+ * Person Class
+ * Provides access to the "Person" database table.
+ *
+ * @author Damien Walsh <me@damow.net>
+ */
 class Person extends Model
 {
     /**
      *  Three columns,
+     *
      *      - The ID
      *      - The person name
      *      - The person's favourite colour.
