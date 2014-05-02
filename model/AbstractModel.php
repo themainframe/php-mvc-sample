@@ -1,6 +1,6 @@
 <?php
 /**
- * Model Class
+ * AbstractModel Class
  * A generic representation of a database table.
  *
  * For now, the database tables used are stored in the model
@@ -12,7 +12,7 @@
  *
  * @author Damien Walsh <me@damow.net>
  */
-abstract class Model
+abstract class AbstractModel
 {
     /**
      * This method looks through the associated database table
