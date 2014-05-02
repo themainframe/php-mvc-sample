@@ -5,7 +5,7 @@
  *
  * @author Damien Walsh <me@damow.net>
  */
-class Person extends Model
+class Person extends AbstractModel
 {
     /**
      *  Three columns,
